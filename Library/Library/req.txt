@@ -1,0 +1,26 @@
+
+cop2335 final 
+
+allow user: 
+add books to database, check in book, check out book, display books, request pending service(request to get the book), inquire about his/her account info, print sorted reports, delete books.
+
+View:
+main menu -> (edit , report, quit)
+Edit menu (library UI) -> (add book, display book, check in book, check out book, delete book, request pending, inquire account info, return to main menu)
+::::Edit Menu->(Display all books->(Display Book(check out,book info, request book, delete book)), AddBook(text input, db ops),Create Account(text input,dbops,Get Account Info(dbops))::
+Report menu(dbops) -> (sort by author, sort by title, sort by status, return to main menu)
+
+Model:
+Book -> title, author, status, borrower name, check out date, pending request
+(checkoutdate/ borrowers name -> empty if checked in)
+(pending request -> empty if status of book is in or noone has requested it)
+***Book entries must be kept in a database text file called (.books,hidden)
+****For the data base the following format must be used:
+****For books that are in NAME:AUTHOR:STATUS
+****For books that are out (no pending)NAME:AUTHOER:STATUS:DATE:PERSON
+****For books that are out (pending)NAME:AUTHOR:STATUS:DATE:PERSON:"pending":PERSONpending
+
+*title of the book is the primary key
+
+price to check out is a flat 2.00 fee (my opinion)
+*review doc for each functions purpose

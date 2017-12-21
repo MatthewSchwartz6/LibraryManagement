@@ -1,0 +1,67 @@
+  Library.AddBookForm.resources - Embedded, ContainedInManifestFile, 
+  Library.ATM.resources - Embedded, ContainedInManifestFile, 
+  Library.BookDetailForm.resources - Embedded, ContainedInManifestFile, 
+  Library.CatalogueForm.resources - Embedded, ContainedInManifestFile, 
+  Library.Library.resources - Embedded, ContainedInManifestFile, 
+  Library.MainForm.resources - Embedded, ContainedInManifestFile, 
+  Library.MyForm.resources - Embedded, ContainedInManifestFile, 
+  Library.MyForm1.resources - Embedded, ContainedInManifestFile, 
+  Library.Resource.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly Library, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class Library.AddBookForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(UserAccount*, LibModel*, std.vector<UserAccount \*\,std::allocator<UserAccount \*> >*): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    addBookAndReturn(UserAccount*, LibModel*, vector<UserAccount \*\,std::allocator<UserAccount \*> >*): PrivateScope, Public, HideBySig
+Class Library.MyForm1: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(UserAccount*): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class Library.BookDetailForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(Book*): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class Library.CatalogueForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(UserAccount*, LibModel*, std.vector<UserAccount \*\,std::allocator<UserAccount \*> >*): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    leave(UserAccount*, LibModel*, vector<UserAccount \*\,std::allocator<UserAccount \*> >*): PrivateScope, Public, HideBySig
+Class Library.ATM: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(UserAccount*, LibModel*, std.vector<UserAccount \*\,std::allocator<UserAccount \*> >*): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Leave(UserAccount*, LibModel*, vector<UserAccount \*\,std::allocator<UserAccount \*> >*): PrivateScope, Public, HideBySig
+Class Library.TheLibrary: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(UserAccount*, LibModel*, std.vector<UserAccount \*\,std::allocator<UserAccount \*> >*): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(UserAccount*): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    leave(vector<UserAccount \*\,std::allocator<UserAccount \*> >*, LibModel*): PrivateScope, Public, HideBySig
+Class Library.MyForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(std.vector<UserAccount \*\,std::allocator<UserAccount \*> >*, LibModel*): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class Library.MainForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(std.vector<UserAccount \*\,std::allocator<UserAccount \*> >*, LibModel*): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
